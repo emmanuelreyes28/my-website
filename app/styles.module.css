@@ -1,6 +1,36 @@
+.dot{
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 100px;
+    background-color: rgba(112, 128, 144, 1);
+    opacity: 0.5;
+}
+
+.dotdisplay{
+    display: grid;
+    width: fit-content;
+}
+
 .dotgrid{
     position: relative;
     display: grid;
     height: 100vh;
     place-content: center;
+}
+
+.dotborder{
+    cursor: crosshair;
+    border-radius: 100px;
+    padding: 0.5rem;
+    transition: background-color 0.5s ease;
+}
+
+.dotborder:hover{
+    background-color: rgba(112, 128, 144, 0.777);
+}
+
+.dotborder:hover{
+    .dot{
+        /* background-image: linear-gradient(to-right, rgba(78, 70, 229, 1), rgba(78, 70, 229, 0.5)); */
+    }
 }
