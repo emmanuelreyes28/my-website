@@ -1,0 +1,75 @@
+.container{
+    display: grid;
+    /* background-color: blue; */
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 1rem 2rem;
+    grid-template-areas: 
+        "header header"
+        "experience1 experience2"
+        "experience3 experience4";
+    
+}
+
+.header{
+    grid-area: header;
+    /* place-self: center; */
+    justify-self: center;
+    align-items: start;
+    padding-top: 1em;
+    /* text-align: center; */
+}
+
+.experinceOne{
+    grid-area: experience1;
+    /* justify-content: center; */
+    place-self: center;
+    
+}
+
+.jobTitle{
+    margin-bottom: 0.5rem;
+}
+
+.timeframe{
+    margin-bottom: 0.5rem;
+}
+
+.jobDescription{
+    line-height: 1.5em;
+    margin-bottom: 1rem;
+}
+
+.skills{
+    margin: 0.5rem 0rem;
+}
+
+.skills span{
+    margin-right: 10px;
+    background-color: slategray;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.leftCells{
+    margin-left: 50px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.rightCells{
+    margin-right: 50px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 10px;
+    padding: 1rem;
+
+}
+
+
+

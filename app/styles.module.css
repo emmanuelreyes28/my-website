@@ -8,9 +8,7 @@
 
 .dotdisplay{
     display: grid;
-    /* width: fit-content; */
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    /* grid-template-rows: repeat(auto-fill, 1fr); */
+    width: fit-content;
 }
 
 .dotgrid{
