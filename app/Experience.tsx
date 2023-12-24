@@ -39,9 +39,7 @@ function Experience() {
             teaching over 10 courses, including Python and Web Development, to
             students aged 13-17. Collaborated on curriculum design, resulting in
             widespread adoption and the successful completion of 100+ projects
-            per quarter by 150+ students and instructors. Adept at mentoring and
-            guiding students, achieving a 90% success rate in software project
-            development through effective debugging and support.
+            per quarter by 150+ students and instructors.
           </p>
           <div className={styles.skills}>
             <span>Python</span>
@@ -62,12 +60,11 @@ function Experience() {
           </p>
           <p className={styles.jobDescription}>
             Educational leader with a focus on coding and robotics, overseeing a
-            group of 20 students (ages 13-19) in an immersive introduction to
-            Arduino programming. Enhanced students&apos; coding proficiency
-            through effective instruction in C++ programming and Arduino IDE
-            utilization. Directed and coached students in crafting expressive
-            robotics, resulting in the successful development of 10 operational
-            robots.
+            group of 20 students in an immersive introduction to Arduino
+            programming. Enhanced students&apos; coding proficiency through
+            effective instruction in C++ programming and Arduino IDE
+            utilization. Guided students in crafting expressive robotics,
+            resulting in the successful development of 10 operational robots.
           </p>
           <div className={styles.skills}>
             <span>C++</span>

@@ -3,8 +3,8 @@
     /* background-color: blue; */
     height: 100vh;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    gap: 1rem 2rem;
+    grid-template-rows: 100px 250px 250px;
+    gap: 2.5rem 2rem;
     grid-template-areas: 
         "header header"
         "experience1 experience2"
