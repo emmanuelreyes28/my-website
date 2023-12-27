@@ -1,32 +1,25 @@
 .container{
     display: grid;
-    /* background-color: blue; */
     height: 100vh;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px 250px 250px;
-    gap: 2.5rem 2rem;
-    grid-template-areas: 
-        "header header"
-        "experience1 experience2"
-        "experience3 experience4";
-    
+    margin-top: 2em;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    row-gap: 1rem;
+    align-content: start;
 }
 
 .header{
-    grid-area: header;
-    /* place-self: center; */
-    justify-self: center;
-    align-items: start;
     padding-top: 1em;
-    /* text-align: center; */
+    text-align: center;
 }
 
-.experinceOne{
-    grid-area: experience1;
-    /* justify-content: center; */
-    place-self: center;
-    
+.experienceOne,
+.experienceTwo,
+.experienceThree,
+.experienceFour{
+    place-self: start;
+    margin: 0 1rem;
 }
+
 
 .jobTitle{
     margin-bottom: 0.5rem;
@@ -53,7 +46,6 @@
 }
 
 .leftCells{
-    margin-left: 50px;
     border-width: 5px;
     border-style: solid;
     border-color: red;
@@ -62,7 +54,6 @@
 }
 
 .rightCells{
-    margin-right: 50px;
     border-width: 5px;
     border-style: solid;
     border-color: red;
@@ -70,6 +61,3 @@
     padding: 1rem;
 
 }
-
-
-
