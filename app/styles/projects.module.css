@@ -1,0 +1,66 @@
+.container{
+    display: grid;
+    height: 100vh;
+    gap: 2.5rem 2rem;
+    grid-template-areas: 
+        "header header"
+        "project1 project2"
+        "project3 project4"
+        "footer footer";
+}
+
+.header{
+    grid-area: header;
+    justify-self: center;
+    align-items: start;
+    padding-top: 1em;
+}
+
+.projectOne{
+    grid-area: project1;
+    place-self: center;
+}
+
+.projectTwo{
+    grid-area: project2;
+    place-self: center;
+}
+
+.arrow{
+    font-size: larger;
+    margin-left: 1px;
+}
+
+.projectTitle{
+    margin-bottom: 0.5rem;
+}
+
+.projectDescription{
+    line-height: 1.5em;
+    margin-bottom: 1rem;
+}
+
+.technologies span{
+    margin-right: 10px;
+    background-color: slategray;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.leftCell{
+    margin-left: 50px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.rightCell{
+    margin-right: 50px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 10px;
+    padding: 1rem;
+}
