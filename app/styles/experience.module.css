@@ -1,6 +1,6 @@
 .container{
     display: grid;
-    height: 100vh;
+    height: 85vh;
     margin-top: 2em;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     row-gap: 1rem;
