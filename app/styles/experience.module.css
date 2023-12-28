@@ -47,19 +47,10 @@
     border-radius: 15px;
 }
 
-.leftCells{
+.cell{
     border-width: 5px;
     border-style: solid;
     border-color: red;
     border-radius: 10px;
     padding: 1rem;
-}
-
-.rightCells{
-    border-width: 5px;
-    border-style: solid;
-    border-color: red;
-    border-radius: 10px;
-    padding: 1rem;
-
 }
