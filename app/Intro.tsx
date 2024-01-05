@@ -4,7 +4,7 @@ import WaterDropGrid from "./WaterDropGrid";
 
 function Intro() {
   return (
-    <div className={styles.container}>
+    <div id="intro" className={styles.container}>
       <h1 className={styles.h1}>Hi, I&apos;m Emmanuel Reyes</h1>
       <h2 className={styles.h2}>Software Engineer</h2>
       <p className={styles.bio}>

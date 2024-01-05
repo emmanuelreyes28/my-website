@@ -1,19 +1,29 @@
 .container{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.nav{
     display: flex;
-    height: 4em;
     justify-content: center;
+    height: 4em;
     row-gap: 20px;
     padding-top: 2.5em;
     padding-bottom: 2.5em;
-    background-color: aqua;
-    position: sticky;
-    align-self: flex-start;
+    align-items: flex-start;
+    backdrop-filter: blur(10px);
 }
 
 .link{
     margin-right: 10px;
     margin-top: 10px;
-    background-color: slategray;
     padding: 5px 10px;
     border-radius: 15px;
+    text-decoration: underline;
+}
+
+.link:hover{
+    color: blueviolet;
 }

@@ -29,7 +29,7 @@ function Experience() {
   }, [controls, inView]);
 
   return (
-    <div>
+    <div id="experience">
       <h1 className={styles.header}>EXPERIENCE</h1>
       <motion.div
         ref={ref}

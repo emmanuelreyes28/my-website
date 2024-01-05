@@ -6,7 +6,7 @@ import { FiArrowUpRight } from "react-icons/fi";
 
 function Projects() {
   return (
-    <div className={styles.container}>
+    <div id="projects" className={styles.container}>
       <h1 className={styles.header}>PROJECTS</h1>
       <Link href="https://the-pre-workout-insider.vercel.app/">
         <div className={styles.leftCell}>

@@ -1,24 +1,22 @@
 import styles from "./styles/navbar.module.css";
 import Link from "next/link";
 
-//TO-DO: Link each section; Add underline to each link; Add on hover effect; Make navbar sticky
-
 function NavBar() {
   return (
-    <div>
-      <section className={styles.container}>
+    <div className={styles.container}>
+      <section className={styles.nav}>
         <div>
-          <Link href="#" className={styles.link}>
+          <Link href="#intro" className={styles.link}>
             Introduction
           </Link>
         </div>
         <div>
-          <Link href="#" className={styles.link}>
+          <Link href="#projects" className={styles.link}>
             Projects
           </Link>
         </div>
         <div>
-          <Link href="#" className={styles.link}>
+          <Link href="#experience" className={styles.link}>
             Experience
           </Link>
         </div>
