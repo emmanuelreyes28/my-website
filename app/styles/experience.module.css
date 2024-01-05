@@ -3,7 +3,7 @@
     height: 85vh;
     margin-top: 2em;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-    row-gap: 1rem;
+    row-gap: 1.75rem;
     align-content: start;
 }
 
@@ -42,17 +42,16 @@
 .skills span{
     margin-right: 10px;
     margin-top: 10px;
-    background-color: slategray;
+    background-color: #92DCE5;
+    color: black;
     padding: 5px 10px;
     border-radius: 15px;
 }
 
 .cell{
-    border-width: 5px;
-    border-style: solid;
-    border-color: red;
+    box-shadow: 0px 0px 10px 1px #145C9E;
     border-radius: 10px;
-    padding: 1rem;
+    padding: 1rem; 
 }
 
 .cell:hover{
