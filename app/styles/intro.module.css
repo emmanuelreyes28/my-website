@@ -9,6 +9,9 @@
 .h1{
     font-size: 4em;
     margin-bottom: 0.5rem;
+    /* background: linear-gradient(120deg, rgb(220, 247, 99), rgb(20, 92, 158));
+    background-clip: text;
+    -webkit-text-fill-color: transparent; */
 }
 
 .h2{
