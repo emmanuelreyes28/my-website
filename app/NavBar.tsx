@@ -11,13 +11,13 @@ function NavBar() {
           </Link>
         </div>
         <div>
-          <Link href="#projects" className={styles.link}>
-            Projects
+          <Link href="#experience" className={styles.link}>
+            Experience
           </Link>
         </div>
         <div>
-          <Link href="#experience" className={styles.link}>
-            Experience
+          <Link href="#projects" className={styles.link}>
+            Projects
           </Link>
         </div>
       </section>
