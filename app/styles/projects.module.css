@@ -1,29 +1,21 @@
 .container{
     display: grid;
     height: 100vh;
-    gap: 2.5rem 2rem;
-    grid-template-areas: 
-        "header header"
-        "project1 project2"
-        "project3 project4"
-        "footer footer";
+    margin-top: 2em;
+    row-gap: 1.75rem;
+    /* gap: 2.5rem 2rem; */
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    align-content: start;
 }
 
 .header{
-    grid-area: header;
-    justify-self: center;
-    align-items: start;
     padding-top: 1em;
+    text-align: center;
 }
 
-.projectOne{
-    grid-area: project1;
-    place-self: center;
-}
-
-.projectTwo{
-    grid-area: project2;
-    place-self: center;
+.project{
+    place-self: start;
+    margin: 0 1rem;
 }
 
 .arrow{
@@ -40,27 +32,30 @@
     margin-bottom: 1rem;
 }
 
+.technologies{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .technologies span{
     margin-right: 10px;
-    background-color: slategray;
+    margin-top: 10px;
+    background-color: #92DCE5;
+    color: black;
     padding: 5px 10px;
     border-radius: 15px;
 }
 
-.leftCell{
-    margin-left: 50px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: red;
+.cell{
+    box-shadow: 0px 0px 10px 1px #145C9E;
     border-radius: 10px;
     padding: 1rem;
 }
 
-.rightCell{
-    margin-right: 50px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: red;
-    border-radius: 10px;
-    padding: 1rem;
+.cell:hover{
+    scale: 1.01;
+}
+
+.cell:hover .arrow{
+    color: #145C9E;
 }
