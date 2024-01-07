@@ -3,7 +3,7 @@
     min-height: 80vh;
     margin-top: 2em;
     row-gap: 1.75rem;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(500px, 100%), 1fr));
     align-content: start;
 }
 
